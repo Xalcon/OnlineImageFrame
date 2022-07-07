@@ -1,7 +1,7 @@
-package com.example.examplemod.platform;
+package net.xalcon.oif.platform;
 
-import com.example.examplemod.Constants;
-import com.example.examplemod.platform.services.IPlatformHelper;
+import net.xalcon.oif.Constants;
+import net.xalcon.oif.platform.services.IPlatformHelper;
 
 import java.util.ServiceLoader;
 

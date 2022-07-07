@@ -1,6 +1,6 @@
-package com.example.examplemod;
+package net.xalcon.oif;
 
-import com.example.examplemod.platform.Services;
+import net.xalcon.oif.platform.Services;
 import net.minecraft.core.Registry;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.TextComponent;
@@ -8,6 +8,7 @@ import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.TooltipFlag;
+import net.xalcon.oif.registration.ModRegistry;
 
 import java.util.List;
 
@@ -20,6 +21,8 @@ public class CommonClass {
 
         Constants.LOG.info("Hello from Common init on {}! we are currently in a {} environment!", Services.PLATFORM.getPlatformName(), Services.PLATFORM.isDevelopmentEnvironment() ? "development" : "production");
         Constants.LOG.info("Diamond Item >> {}", Registry.ITEM.getKey(Items.DIAMOND));
+
+        ModRegistry.initialize();
     }
 
     // This method serves as a hook to modify item tooltips. The vanilla game

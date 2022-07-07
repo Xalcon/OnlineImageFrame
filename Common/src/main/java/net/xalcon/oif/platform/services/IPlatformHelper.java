@@ -1,4 +1,4 @@
-package com.example.examplemod.platform.services;
+package net.xalcon.oif.platform.services;
 
 public interface IPlatformHelper {
 

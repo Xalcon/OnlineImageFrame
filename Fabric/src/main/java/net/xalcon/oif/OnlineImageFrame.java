@@ -1,9 +1,9 @@
-package com.example.examplemod;
+package net.xalcon.oif;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.item.v1.ItemTooltipCallback;
 
-public class ExampleMod implements ModInitializer {
+public class OnlineImageFrame implements ModInitializer {
     
     @Override
     public void onInitialize() {

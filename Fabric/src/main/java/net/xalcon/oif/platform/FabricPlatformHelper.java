@@ -1,6 +1,6 @@
-package com.example.examplemod.platform;
+package net.xalcon.oif.platform;
 
-import com.example.examplemod.platform.services.IPlatformHelper;
+import net.xalcon.oif.platform.services.IPlatformHelper;
 import net.fabricmc.loader.api.FabricLoader;
 
 public class FabricPlatformHelper implements IPlatformHelper {
